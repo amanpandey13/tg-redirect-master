@@ -8,7 +8,7 @@
 	/* config */
 	const PORT = +process.env.PORT || 3020;
 	const COUNTER = +process.env.COUNTER || 0;
-	const DEBUG = process.env.DEBUG || false;
+	const DEBUG = process.env.DEBUG || false;//amanS
 
 	var track = '';
 	if (process.env.TRACKER_CONFIG_FILE)
